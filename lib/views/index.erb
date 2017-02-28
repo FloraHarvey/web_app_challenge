@@ -2,12 +2,5 @@
 <h1>My name is <%= @name %></h1>
 
 <div>
-<img src= 'http://bit.ly/1eze8aE' style= 'border: 5px dashed red'>
+  <img src= 'http://bit.ly/1eze8aE' style= 'border: 5px dashed red'>
 </div>
-
-<% if @name == nil %>
-  <form action="/named-cat" method="">
-    <input type="text" name="name">
-    <input type="submit" value="Submit">
-  </form>
- <% end %>
